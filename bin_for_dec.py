@@ -1,3 +1,4 @@
+#converte qualquer base até 16 para decimal
 while(1):
     result = 0.0
     base = int(input("Base: "))
@@ -13,7 +14,6 @@ while(1):
 
         for b in binstr:
             result += int(b) * pow(base, binpot)
-            print(result)
             binpot -= 1
         print(result)
 
