@@ -1,3 +1,4 @@
+#Calcula os dias entre duas datas, considerando a ideia de anos bissextos e meses com mais ou menos dias
 di = 14
 mi = 8
 ai = 2018
